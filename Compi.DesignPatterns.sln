@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compi.DesignPatterns.Rules", "src\Compi.DesignPatterns.Rules\Compi.DesignPatterns.Rules.csproj", "{4AEB2B7A-E07B-4B5D-8EB9-B5551E28E6B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compi.DesignPatterns", "src\Compi.DesignPatterns.Rules\Compi.DesignPatterns.csproj", "{4AEB2B7A-E07B-4B5D-8EB9-B5551E28E6B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{497E8190-76B3-4D64-A313-C9FA09B898FF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules", "Rules", "{B84EB60C-BB70-4FEE-8F15-750AF829A6F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{376AF208-5B39-4BEB-AD4A-C8AC6667CE94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules", "Rules", "{8FA720E7-7D45-4570-8FEC-0409E5CADC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compi.DesignPatterns.Test", "test\Compi.DesignPatterns.Test\Compi.DesignPatterns.Test.csproj", "{6AE3E9DF-7BE1-4847-901B-F9EAC5B5FEA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,10 @@ Global
 		{4AEB2B7A-E07B-4B5D-8EB9-B5551E28E6B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AEB2B7A-E07B-4B5D-8EB9-B5551E28E6B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AEB2B7A-E07B-4B5D-8EB9-B5551E28E6B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AE3E9DF-7BE1-4847-901B-F9EAC5B5FEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AE3E9DF-7BE1-4847-901B-F9EAC5B5FEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AE3E9DF-7BE1-4847-901B-F9EAC5B5FEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AE3E9DF-7BE1-4847-901B-F9EAC5B5FEA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -28,6 +36,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4AEB2B7A-E07B-4B5D-8EB9-B5551E28E6B4} = {B84EB60C-BB70-4FEE-8F15-750AF829A6F8}
 		{B84EB60C-BB70-4FEE-8F15-750AF829A6F8} = {497E8190-76B3-4D64-A313-C9FA09B898FF}
+		{8FA720E7-7D45-4570-8FEC-0409E5CADC59} = {376AF208-5B39-4BEB-AD4A-C8AC6667CE94}
+		{6AE3E9DF-7BE1-4847-901B-F9EAC5B5FEA0} = {8FA720E7-7D45-4570-8FEC-0409E5CADC59}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {55F15B8B-8C51-4E24-865F-C269B11AFBF6}

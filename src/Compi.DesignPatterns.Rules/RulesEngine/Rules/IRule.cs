@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Compi.DesignPatterns.Rules.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CompilandoIdeas.PatternDesign.Rules.Rules
+namespace Compi.DesignPatterns.Rules.Rules
 {
     public interface IRule
     {

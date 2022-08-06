@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CompilandoIdeas.PatternDesign.Rules
+namespace Compi.DesignPatterns.Rules.Model
 {
     public class Record
     {
