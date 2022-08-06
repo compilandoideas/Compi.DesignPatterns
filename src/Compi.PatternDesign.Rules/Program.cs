@@ -1,6 +1,7 @@
 ﻿using CompilandoIdeas.PatternDesign.Rules.Rules;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CompilandoIdeas.PatternDesign.Rules
 {
@@ -11,15 +12,15 @@ namespace CompilandoIdeas.PatternDesign.Rules
 
 
             var record = new Record();
+                             
 
-            //var ruleType = typeof(IRule);
-            //IEnumerable<IRule> rules = GetType().Assembly.GetTypes()
-            //    .Where(p => ruleType.IsAssignableFrom(p) && !p.IsInterface)
-            //    .Select(r => Activator.CreateInstance(r) as IRule);
+            IEnumerable<IRule> rules = typeof(IRule).Assembly.GetTypes()
+                .Where(x => typeof(IRule).IsAssignableFrom(x) && !x.IsInterface)
+                .Select(x => Activator.CreateInstance(x) as IRule);
 
-            List<IRule> rules = new List<IRule>();
 
-            rules.Add(new IsStartShift());
+
+            //rules.Add(new IsStartShift());
 
             var engine = new RuleEngine(rules);
 
