@@ -1,5 +1,5 @@
-using Compi.DesignPatterns.Rules;
-using Compi.DesignPatterns.Rules.Model;
+using Compi.DesignPatterns.RulesEngine;
+using Compi.DesignPatterns.RulesEngine.Model;
 using Compi.DesignPatterns.RulesEngine.Rules;
 using Compi.DesignPatterns.Test.Common;
 using System.Globalization;
