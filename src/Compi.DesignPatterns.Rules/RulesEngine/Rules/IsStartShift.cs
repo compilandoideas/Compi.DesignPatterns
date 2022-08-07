@@ -1,11 +1,11 @@
-﻿using Compi.DesignPatterns.Rules.Model;
+﻿using Compi.DesignPatterns.RulesEngine.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Compi.DesignPatterns.Rules.Rules
+namespace Compi.DesignPatterns.RulesEngine.Rules
 {
 
     public class IsStartShift : IRule
@@ -16,7 +16,7 @@ namespace Compi.DesignPatterns.Rules.Rules
             if (record.ShiftEntry > record.ShiftDeparture)
             {
                 record.IsEndShift = true;
-             
+
             }
 
             return record;
